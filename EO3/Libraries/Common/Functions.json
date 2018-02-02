@@ -1806,7 +1806,7 @@
   {
     "Index": "0x0085",
     "ReturnType": "int",
-    "Name": "retrieve_value",
+    "Name": "retrieve",
     "Description": "retrieves a stored value from param:index",
     "Parameters": [
       {
@@ -1819,7 +1819,7 @@
   {
     "Index": "0x0086",
     "ReturnType": "void",
-    "Name": "store_value",
+    "Name": "store",
     "Description": "stores param:val into param:index",
     "Parameters": [
       {
