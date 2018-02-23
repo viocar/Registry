@@ -1940,8 +1940,8 @@
   {
     "Index": "0x0092",
     "ReturnType": "void",
-    "Name": "action_flee",
-    "Description": "run away from battle",
+    "Name": "action_escape",
+    "Description": "flee/run away from battle",
     "Parameters": [
     ]
   },
@@ -2676,8 +2676,8 @@
   {
     "Index": "0x00CB",
     "ReturnType": "bool",
-    "Name": "unsure_blindside",
-    "Description": "I think this checks for the blindside flag but I'm not super positive",
+    "Name": "battle_blindside",
+    "Description": "checks if the player was blindsided this turn",
     "Parameters": [
     ]
   },
@@ -2876,7 +2876,7 @@
     "Index": "0x00D8",
     "ReturnType": "int",
     "Name": "ally_is_using_skill",
-    "Description": "check if another ally is using param:skill_id",
+    "Description": "reads input of allies and checks if another ally is using param:skill_id",
     "Parameters": [
       {
         "Type": "int",
