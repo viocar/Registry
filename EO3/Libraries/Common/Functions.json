@@ -2888,13 +2888,13 @@
   {
     "Index": "0x00D9",
     "ReturnType": "bool",
-    "Name": "damage_type_of_most_recent_skill_hit_by",
+    "Name": "damage_type_of_skill_most_recently_hit_by",
     "Description": "checks the damage type of the skill golem was most recently hit by and compares it against param:damage_type",
     "Parameters": [
       {
         "Type": "int",
         "Name": "damage_type",
-        "Description": "damage type to check"
+        "Description": "damage type to check. IMPORTANT NOTE: this is shifted left from normal (so fire is 0x10, ice is 0x20, volt is 0x40, etc.)"
       }
     ]
   },
